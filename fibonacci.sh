@@ -31,9 +31,7 @@ do
 		        break;
 
 		else
-
 		        dizi=$(echo "F($k) = $c")
-			
 			echo -n -e "\n $dizi"
 			a=$b
 		        b=$c	
