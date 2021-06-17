@@ -6,7 +6,6 @@ while [ $n -gt $limit ]
 do
 	echo "Hatalı sayi girdiniz. Tekrar bir sayi giriniz: "
         read n
-
 done
 
 echo "---------------------"
@@ -19,11 +18,9 @@ echo -n -e "\n F(1) = $a"
 echo -n -e "\n F(2) = $b"
 
 for((i=0; i<n; i++))
-do
-	
+do	
 	for ((k=3; k<n; k++))
 	do
-		
 		((c=$a + $b))
 		
 		if [ $c -gt $n ]
